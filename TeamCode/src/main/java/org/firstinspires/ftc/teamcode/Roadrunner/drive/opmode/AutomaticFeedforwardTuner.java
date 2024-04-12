@@ -1,8 +1,8 @@
 package org.firstinspires.ftc.teamcode.Roadrunner.drive.opmode;
 
-import static org.firstinspires.ftc.teamcode.GaliV3.v3Roadrunner.drive.DriveConstants.MAX_RPM;
-import static org.firstinspires.ftc.teamcode.GaliV3.v3Roadrunner.drive.DriveConstants.RUN_USING_ENCODER;
-import static org.firstinspires.ftc.teamcode.GaliV3.v3Roadrunner.drive.DriveConstants.rpmToVelocity;
+import static org.firstinspires.ftc.teamcode.Roadrunner.drive.DriveConstants.MAX_RPM;
+import static org.firstinspires.ftc.teamcode.Roadrunner.drive.DriveConstants.RUN_USING_ENCODER;
+import static org.firstinspires.ftc.teamcode.Roadrunner.drive.DriveConstants.rpmToVelocity;
 
 import com.acmerobotics.dashboard.FtcDashboard;
 import com.acmerobotics.dashboard.config.Config;
@@ -15,9 +15,9 @@ import com.qualcomm.robotcore.util.RobotLog;
 
 import org.firstinspires.ftc.robotcore.external.Telemetry;
 import org.firstinspires.ftc.robotcore.internal.system.Misc;
-import org.firstinspires.ftc.teamcode.GaliV3.v3Roadrunner.drive.SampleMecanumDrive;
-import org.firstinspires.ftc.teamcode.GaliV3.v3Roadrunner.util.LoggingUtil;
-import org.firstinspires.ftc.teamcode.GaliV3.v3Roadrunner.util.RegressionUtil;
+import org.firstinspires.ftc.teamcode.Roadrunner.drive.SampleMecanumDrive;
+import org.firstinspires.ftc.teamcode.Roadrunner.util.LoggingUtil;
+import org.firstinspires.ftc.teamcode.Roadrunner.util.RegressionUtil;
 
 import java.util.ArrayList;
 import java.util.List;
